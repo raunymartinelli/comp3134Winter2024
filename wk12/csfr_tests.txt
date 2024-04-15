@@ -1,0 +1,5 @@
+In csfr_form.php, the user is redirected to csfr_action.php but is not successfully authorized
+because the session variable and post confirmation variable do not match.
+
+In csfr.html, the user is redirected to csfr.php and successfully authorized. This is because
+there is no session variables set and only the username and password are needed for authentication. 

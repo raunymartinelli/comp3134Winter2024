@@ -1,0 +1,3 @@
+Because the file contents that we tried to output is within a script tag, the script is
+run rather than displayed as text on screen. This could be a security issue if the 
+script contained malicious code that accessed senstive information or damaged the OS.

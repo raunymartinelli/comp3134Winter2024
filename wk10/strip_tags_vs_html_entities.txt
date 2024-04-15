@@ -1,0 +1,7 @@
+By changing the input using $input = strip_tags($input), only the value between the tags is saved.
+So <h1>Hello</h1> returns simply "Hello".
+
+Using htmlEntities($input) returns the entire input as a single string.
+So <h1>Hello</h1> returns "<h1>Hello</h1>" on the screen without Hello converting into a header.
+
+

@@ -1,0 +1,9 @@
+1. Typing in a word produces the word in the browse/ path and may include parameters like the following:
+https://www.dictionary.com/browse/valid?s=t
+
+2. Typing in a word that doesn't exist changes the path in the url to 'misspelling' with the parameter
+term equal to the letters you put in
+
+3. The alert script is set as the value for 'term' after noresult is set in the URL path
+
+4. This produces the same page as the previous result
